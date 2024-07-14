@@ -2,6 +2,7 @@ body{
     overflow-x: hidden;
     width: 1430px;
     height: 706px;
+    
 }
 /*CSS DA PRIMEIRA PAGINA DO SITE*/
 
@@ -121,191 +122,163 @@ header {
 }
 
 /*CSS DA TERCEIRA PAGINA*/
-
+.a1{
+    position: absolute;
+    z-index: -1;
+}
 .pagina3{
     background-color: #F0F0F0;
-    width: 1440px;
-    height: 564px;
-    position: relative;
-    bottom: 675px;
-    
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 600px;
+    margin-top: 150px;
+    text-align: justify;
 }
 .pagina3 .paleta{
     width: 270px;
     height: 259px;
-    position: relative;
-    left: 130px;
-    top: 65px;
-
+    margin-top: 80px;
 }
-.paleta .titulo2{
+.pagina3 .paleta .titulo2{
     font-family: Montserrat, sans-serif;
+    font-weight:500;
     font-size: 28px;
-    font-weight: 450;
-    
+    margin-bottom: 15px;
 }
-.paleta .titulo3{
+.pagina3 .paleta .titulo3{
     font-family: Montserrat, sans-serif;
+    font-weight:400;
     font-size: 16px;
-    font-weight: 350;
-    position: relative;
-    top: 10px;
-
 }
 
-.makes1{
-    position: relative;
-    left: 450px;
-    bottom: 235px;
+.pagina3 .makes1{
+    width: 270px;
+    height: 500px;
+    margin-top: 40px;
+
 }
-.makes2{
-    position: relative;
-    left: 750px;
-    bottom:715px;
-}
-.makes3{
-    position: relative;
-    left: 1050px;
-    bottom: 1177px;
-}   
-.pagina3 .valor1{
-    font-family: Montserrat, sans-serif;
-    font-size: 24px;
-    font-weight: 600;
+.makes1 .valor1{
     background: linear-gradient(to right, #CC186E, #8B1717);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-}
-.pagina3 .lista1{
-    width: 270px;
     font-family: Montserrat, sans-serif;
-    font-size: 14px;
-    font-weight: 450;
+    font-weight:700;
+    font-size: 26px;
+    margin-bottom: 6px;
+    
+}
+.makes1 .lista1{
+    font-family: Montserrat, sans-serif;
+    font-weight:350;
+    font-size: 16px;
     list-style-type: disc;
-    position: relative;
-    left: 15px;
 }
+.makes1 .bt-pagina01{
+    background-color: #CC186E; background: linear-gradient(to right, #CC186E, #8B1717);
+    padding: 10px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 85px;
+    position: relative;
+    top: 20px;
+    
+}
+.makes1 .bt-pagina02{
+    background: linear-gradient(to right, #CC186E, #8B1717);
+    padding: 10px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 85px;
+    position: relative;
+    top: 40px;
+    
+}
+.makes1 .bt-pagina03{
+    background: linear-gradient(to right, #CC186E, #8B1717);
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 85px;
+    position: relative;
+    top: 20px;
 
-.pagina3 .bt-pagina01{
-    text-decoration: none;
-    background: linear-gradient(to right, #CC186E, #8B1717);
-    color: #000000;
-    padding: 18px;
-    border-radius: 25% 10%;
-    position: relative;
-    left: 70px;
-    top: 25px;
-}
-.pagina3 .bt-pagina02{
-    text-decoration: none;
-    background: linear-gradient(to right, #CC186E, #8B1717);
-    color: #000000;
-    padding: 18px;
-    border-radius: 25% 10%;
-    position: relative;
-    left: 70px;
-    top: 44px;
-}
-.pagina3 .bt-pagina03{
-    text-decoration: none;
-    background: linear-gradient(to right, #CC186E, #8B1717);
-    color: #000000;
-    padding: 18px;
-    border-radius: 25% 10%;
-    position: relative;
-    left: 70px;
-    top: 26px;
+    
+    
 }
 /*CSS DA QUARTA PAGINA*/
-.pagina4{
-    width: 1171px;
-    height: 640px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    position: relative;
-    bottom: 500px;
-    left: 125px;
-}
 
-.pagina4 .trabalho1{
-    position: relative;
-    bottom: 53px;
+.pagina4{
+    display: grid;
+    width: 1171px;
+    height:650px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 155px;
+    margin-left: 135px;
+    box-shadow: 0px 0px 3px 0px rgba(136,136,136,1);
     
 }
 .work1{
-    font-family: Montserrat, sans-serif;
-    font-size: 28px;
-    font-weight: 450;
-    margin-bottom: 20px;
+    width: 300px;
     position: relative;
-    bottom: 500px;
-    left: 125px;
-}
-.pagina4 .work2{
-    display: inline-block; /* Para permitir a largura personalizada */
-    position: relative; /* Necessário para posicionar o ::after */
-    width: 271px; /* Define a largura do parágrafo */
+    top: 130px;
+    left: 135px;
+    font-family: Montserrat, sans-serif;
+    font-weight:500;
+    font-size: 28px;
 
-    
 }
-.work2::after{
-    content: ''; /* Sem conteúdo, é apenas uma linha */
-    display: block;
-    width: 100%; /* Largura total do parágrafo */
-    height: 2px; /* Espessura da linha */
-    background-color: rgb(70, 68, 68); /* Cor da linha */
-    position: absolute;
-    bottom: -10px; /* Posição da linha abaixo do texto */
-    left: 0; /* Alinhamento à esquerda */
-    
-}
+
+/*CSS DA ULTIMA PAGINA*/
+
 footer{
     background: linear-gradient(to right, #CC186E, #8B1717);
-    width: 1440px;
-    height: 446px;
-    position: relative;
-    bottom: 300px;
-}
-.informacoes .dev1{
-    font-family: Lateef, sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: aliceblue;
-    position: relative;
-    top: 350px;
-    text-align: center;
-    right: 40px;
+    width: 100%;
+    height: 70%;
 
+    
 }
-.informacoes .dev2{
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 130px;
+    position: relative;
+    left: 120px;
+}
+.grid-item .custom-underline{
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.grid-item .final{
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.dev2{
+    position: relative;
+    width: 50%;
+    left: 600px;
+    top: 60px;
+    color: #FFFFFF;
     font-family: Montserrat, sans-serif;
     font-size: 28px;
     font-weight: 500;
-    color: #F0F0F0;
+}
+.dev1{
     position: relative;
-    left: 110px;
-    top: 80px;
-}
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 130px;
-    position: relative;
-    left: 110px;
-}
-.grid-container .grid-item{
-    color: #F0F0F0;
-}
-.grid-item .custom-underline{
+    top: 410px;
+    left: 550px;
+    color: white;
     font-family: Montserrat, sans-serif;
     font-size: 16px;
-    font-weight: 500;
-    margin-bottom: -30px;
+    font-weight: 100;
 }
-.grid-item .final{
-    font-family: Montserrat, sans-serif;
-    font-size: 16px;
-    font-weight: 200;
-    margin-top: 40px;
-}
+
+
+
+
