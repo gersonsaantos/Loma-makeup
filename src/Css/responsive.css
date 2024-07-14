@@ -1,7 +1,6 @@
 /*CSS PARA TELAS PEQUENAS*/
 @media (max-width: 360px) and (max-height: 640px){
     body{
-        width: 100%;
         overflow: hidden;
     }
     header{
