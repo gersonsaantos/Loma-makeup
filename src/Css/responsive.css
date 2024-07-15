@@ -1,7 +1,7 @@
 @media (max-width: 360px){
     body{
         max-width: 360px;
-        overflow-x:hidden;
+        overflow-x: hidden !important;
         
         
     }
