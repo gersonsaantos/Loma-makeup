@@ -1,16 +1,11 @@
 body{
     background-color: black;
     overflow-x: hidden;
-    width: 1430px;
-    height: 706px;
+    width:  1440px;
+    height:  706px;
     
 }
 /*CSS DA PRIMEIRA PAGINA DO SITE*/
-
-.tudo{
-    width: 100%;
-    height: 100%;
-}
 
 header {
     display: flex;
@@ -301,7 +296,7 @@ header {
 footer{
     background: linear-gradient(to right, #b48052, #c56511);
     width: 100%;
-    height: 80%;
+    height:  70%;
 
     
 }

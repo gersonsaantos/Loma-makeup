@@ -1,7 +1,8 @@
 @media (max-width: 360px){
     body{
         max-width: 360px;
-        overflow-x: hidden !important;
+        overflow-x:hidden;
+        touch-action: pan-y;
         
         
     }
@@ -195,8 +196,12 @@
 /*CSS PARA TELAS MÉDIAS*/
 @media (min-width: 361px) and (max-width: 768px){
     body{
-        min-width: 361px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
         overflow-x:hidden;
+        touch-action: pan-y;
         
     }
     header{
@@ -324,8 +329,7 @@
         }
         /*CSS DA QUARTA PAGINA*/
         .pagina4{
-            width: 100%;
-            height: 100%;
+            height: 20%;
         }
         .pagina4 .swiper {
             background:#141111; 
