@@ -49,7 +49,7 @@
     /*CSS DA SEGUNDA PAGINA*/
 
     .pagina2{
-        background-color: white;
+        
         margin-left: 0;
         width: 360px;
         height: 750px;
@@ -77,11 +77,11 @@
     /*CSS DA TERCEIRA PAGINA*/
     .a1{
         width: 360px;
-        height: 1950px;
+        height: 1050px;
     }
     .pagina3{
         width: 360px;
-        height: 1810px;
+        height: 900px;
         display: flex;
         flex-direction: column;
         align-items: baseline;
@@ -104,52 +104,60 @@
     .pagina3 .paleta .titulo3{
         font-size: 15px;
     }
-    .pagina3 .makes1{
+    .pagina3 .swiper{
         position: relative;
-        bottom: 100px;
-        left: 60px;
-        height: 50;
-        width: 52%;
+        height: 600px;
+        width: 190%;
+        left: 20px;
     
     }
-    .makes1 .foto{
+    .swiper-slide  .foto{
         height: 200px;
     }
-    .makes1 .valor1{
+    .swiper-slide  .valor1{
         font-size: 20px;
         
     }
-    .makes1 .lista1{
+    .swiper-slide .lista1{
         font-size: 14px;
     }
-    .makes1 .bt-pagina01{
+    .swiper-slide  .bt-pagina01{
         margin-left: 50px;
     }
-    .makes1 .bt-pagina02{
+    .swiper-slide  .bt-pagina02{
         margin-left: 50px;
     }
-    .makes1 .bt-pagina03{
+    .swiper-slide .bt-pagina03{
         margin-left: 50px;
     }
     /*CSS DA QUARTA PAGINA*/
     .pagina4{
-        width: 360px;
+        width: 480px;
         height: 100%;
         display: block;
         margin-left: 5px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .pagina4 .telacelular{
-        width: 95%;
-
     }
     .work1{
+        width: 200px;
+        color: white;
         font-size: 22px;
         position: relative;
-        left: 100px;
-        top: 90px;
+        right: 480px;
+        top: 40px;
+
     }
+    .pagina4 .swiper {
+        background:#141111; 
+        width: 80%;
+        height: 55%;
+        padding-top: 200px;
+        margin-left: -20px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        box-shadow: 0px 0px 3px 0px rgba(136,136,136,1);
+    
+    }
+    
     footer{
         width: 360px;
         margin-top: 80px;
@@ -198,173 +206,175 @@
         margin-left: 15px;
         font-size: 14px;
         }
-    .navegacao ul{
-        gap: 18px;
-        position: relative;
-        bottom: 20px;
-    }
-    .pagina1{
-        margin-left: 0;
-        height: 710px;
-        width: 30%;
-    }
-    /*CSS DA PRIMERIA PAGINA*/
-
-    .pagina1 .titulo{
-        width: 280px;
-        font-size: 32px;
-        text-align: center;
-        margin-left: 50px;
-        margin-bottom: 50px;
-    }
-    .pagina1 .descricao{
-        font-size: 16px;
-        width: 350px;
-        margin-left: 15px;
-    }
-    .pagina1 .fotopagina{
-        height: 300px;
-        position: relative;
-        bottom: -20px;
-        left: 120px;
-    }
-    .pagina1 .botao{
-        font-size: 10px;
-        margin-left: 100px;
-    }
-    /*CSS DA SEGUNDA PAGINA*/
-
-    .pagina2{
-        background-color: white;
-        margin-left: 0;
-        width: 35%;
-        height: 750px;
-        
-        
-    }
-    .pagina2 .titulo1{
-        font-size: 25px;
-        margin-left: 115px;
-    }
-    .pagina2 .conteudo2{
-        width: 60%;
-        font-size: 16px;
-        position: relative;
-        left: 40px;
-        top: 90px;
-    }
-    .pagina2 .lomafoto{
-        height: 35%;
-        position: relative;
-        bottom: 0;
-        top: 110px;
-        left: 90px;
-    }
-    /*CSS DA TERCEIRA PAGINA*/
-    .a1{
-        height: 1900px;
-    }
-    .pagina3{
-        width: 30%;
-        height: 1750px;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
-        
-        
-        
-    }
-    .pagina3 .paleta{
-        margin-left: 35px;
-        height: 10%;
-        width: 320px;
-        position: relative;
-        bottom: 60px;
-        
-
-    }
-    .pagina3 .paleta .titulo2{
-        font-size: 22px;
-    }
-    .pagina3 .paleta .titulo3{
-        font-size: 15px;
-    }
-    .pagina3 .makes1{
-        position: relative;
-        bottom: 100px;
-        left: 70px;
-        height: 50;
-        width: 44%;
+        .navegacao ul{
+            gap: 18px;
+            position: relative;
+            bottom: 20px;
+        }
+        .pagina1{
+            margin-left: 0;
+            height: 710px;
+            width: 30%;
+        }
+/*CSS DA PRIMERIA PAGINA*/
+        .pagina1 .titulo{
+            width: 280px;
+            font-size: 32px;
+            text-align: center;
+            margin-left: 50px;
+            margin-bottom: 50px;
+        }
+        .pagina1 .descricao{
+            font-size: 16px;
+            width: 350px;
+            margin-left: 15px;
+        }
+        .pagina1 .fotopagina{
+            height: 300px;
+            position: relative;
+            bottom: -20px;
+            left: 120px;
+        }
+        .pagina1 .botao{
+            font-size: 10px;
+            margin-left: 100px;
+        }
+        /*CSS DA SEGUNDA PAGINA*/
+        .pagina2{
+            background-color: black;
+            margin-left: 0;
+            width: 35%;
+            height: 750px;
+            
+            
+        }
+        .pagina2 .titulo1{
+            font-size: 25px;
+            margin-left: 115px;
+        }
+        .pagina2 .conteudo2{
+            width: 60%;
+            font-size: 16px;
+            position: relative;
+            left: 40px;
+            top: 90px;
+        }
+        .pagina2 .lomafoto{
+            height: 35%;
+            position: relative;
+            bottom: 0;
+            top: 110px;
+            left: 90px;
+        }
+        /*CSS DA TERCEIRA PAGINA*/
+        .a1{
+            height: 1070px;
+        }
+        .pagina3{
+            width: 30%;
+            height: 900px;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            
+            
+            
+        }
+        .pagina3 .paleta{
+            margin-left: 35px;
+            height: 10%;
+            width: 320px;
+            position: relative;
+            bottom: 80px;
+            
     
-    }
-    .makes1 .foto{
-        height: 200px;
-    }
-    .makes1 .valor1{
-        font-size: 20px;
+        }
+        .pagina3 .paleta .titulo2{
+            font-size: 22px;
+        }
+        .pagina3 .paleta .titulo3{
+            font-size: 15px;
+        }
+        .pagina3 .swiper{
+            position: relative;
+            left: 20px;
+            height: 600px;
+            width:700px ;
         
-    }
-    .makes1 .lista1{
-        font-size: 14px;
-    }
-    .makes1 .bt-pagina01{
-        margin-left: 50px;
-    }
-    .makes1 .bt-pagina02{
-        margin-left: 50px;
-    }
-    .makes1 .bt-pagina03{
-        margin-left: 50px;
-    }
-    /*CSS DA QUARTA PAGINA*/
-    .pagina4{
-        width: 20%;
-        height: 100%;
-        display: block;
-        margin-left: 50px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .pagina4 .telacelular{
-        width: 95%;
-
-    }
-    .work1{
-        font-size: 22px;
-        position: relative;
-        left: 100px;
-    }
-    footer{
-        width: 450px;
-        margin-top: 80px;
+        }
+        .swiper-slide .foto{
+            height: 200px;
+        }
+        .swiper-slide .valor1{
+            font-size: 20px;
+            
+        }
+        .swiper-slide .lista1{
+            font-size: 14px;
+        }
+        .swiper-slide .bt-pagina01{
+            margin-left: 50px;
+        }
+        .swiper-slide .bt-pagina02{
+            margin-left: 50px;
+        }
+        .swiper-slide .bt-pagina03{
+            margin-left: 50px;
+        }
+        /*CSS DA QUARTA PAGINA*/
+        .pagina4{
+            width: 100%;
+            height: 100%;
+        }
+        .pagina4 .swiper {
+            background:#141111; 
+            width: 80%;
+            padding-top: 200px;
+            padding-bottom: 50px;
+            margin-top: 50px;
+            margin-left: -385px;
+            box-shadow: 0px 0px 3px 0px rgba(136,136,136,1);
+        
+        }
+        
+        .work1{
+            color: white;
+            font-size: 22px;
+            position: relative;
+            right: 480px;
+            top: 40px;
     
-    }
-    .informacoes .grid-container{
-        width: 25%;
-        position: relative;
-        left: 5px;
-        display: grid;
-        grid-template-columns: repeat(2,1fr) ;
-        text-align: center;
-        gap: 18px;
+        }
+        footer{
+            width: 450px;
+            margin-top: 80px;
         
-    }
-    .informacoes .grid-item .custom-underline{
-        font-size: 14px;
-    }
-    .informacoes .grid-item .final{
-        font-size: 14px;
-    }
-    .informacoes .dev1{
-        position: relative;
-        left: 100px;
-        font-size: 12px;
-    }
-    .informacoes .dev2{
-        position: relative;
-        left: 150px;
-        font-size: 16px;
-    }
+        }
+        .informacoes .grid-container{
+            width: 25%;
+            position: relative;
+            left: 5px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr) ;
+            text-align: center;
+            gap: 18px;
+            
+        }
+        .informacoes .grid-item .custom-underline{
+            font-size: 14px;
+        }
+        .informacoes .grid-item .final{
+            font-size: 14px;
+        }
+        .informacoes .dev1{
+            position: relative;
+            left: 100px;
+            font-size: 12px;
+        }
+        .informacoes .dev2{
+            position: relative;
+            left: 150px;
+            font-size: 16px;
+        }
 }
-
