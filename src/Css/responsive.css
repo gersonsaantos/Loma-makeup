@@ -162,6 +162,7 @@
     footer{
         width: 360px;
         margin-top: 80px;
+        
     
     }
     .informacoes .grid-container{
@@ -352,13 +353,13 @@
         }
         footer{
             width: 450px;
-            margin-top: 80px;
         
         }
         .informacoes .grid-container{
-            width: 25%;
+            width: 100%;
             position: relative;
-            left: 5px;
+            bottom: 80px;
+            left: -30px;
             display: grid;
             grid-template-columns: repeat(2,1fr) ;
             text-align: center;
@@ -369,16 +370,18 @@
             font-size: 14px;
         }
         .informacoes .grid-item .final{
-            font-size: 14px;
+            font-size: 12px;
         }
         .informacoes .dev1{
             position: relative;
+            top: 300px;
             left: 100px;
             font-size: 12px;
         }
         .informacoes .dev2{
             position: relative;
             left: 150px;
+            top: 0;
             font-size: 16px;
         }
 }

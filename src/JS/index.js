@@ -33,7 +33,7 @@ var swiper2 = new Swiper('.mySwiper2', {
         clickable: true,
     },
     autoplay: {
-        delay: 3000, // Tempo em milissegundos entre os slides
+        delay: 1500, // Tempo em milissegundos entre os slides
         disableOnInteraction: false, // Continua a deslizar automaticamente após interações do usuário
     },
     loop: true, 
