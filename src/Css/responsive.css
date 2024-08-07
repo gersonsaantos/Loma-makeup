@@ -41,7 +41,7 @@
         height: 300px;
         position: relative;
         bottom: -20px;
-        left: 120px;
+        left: 105px;
     }
     .pagina1 .botao{
         font-size: 10px;
@@ -73,7 +73,7 @@
         position: relative;
         bottom: 0;
         top: 110px;
-        left: 90px;
+        left: 100px;
     }
     /*CSS DA TERCEIRA PAGINA*/
     .a1{
@@ -239,7 +239,7 @@
             height: 300px;
             position: relative;
             bottom: -20px;
-            left: 120px;
+            left: 70px;
         }
         .pagina1 .botao{
             font-size: 10px;
@@ -247,7 +247,6 @@
         }
         /*CSS DA SEGUNDA PAGINA*/
         .pagina2{
-            background-color: black;
             margin-left: 0;
             width: 35%;
             height: 750px;
@@ -270,7 +269,7 @@
             position: relative;
             bottom: 0;
             top: 110px;
-            left: 90px;
+            left: 110px;
         }
         /*CSS DA TERCEIRA PAGINA*/
         .a1{
