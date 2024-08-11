@@ -12,6 +12,11 @@
         justify-content:flex-start;
         font-size: 14px;
         }
+    
+        .menu-toggle {
+            display: block;
+    
+        }    
     .navegacao ul{
         gap: 18px;
         position: relative;
@@ -212,6 +217,15 @@
         margin-left: 15px;
         font-size: 14px;
         }
+        .menu-toggle {
+            display: block;
+    
+        }
+        .dropdown{
+            position: absolute;
+            z-index: 100;
+        }
+    
         .navegacao ul{
             gap: 18px;
             position: relative;
@@ -384,3 +398,5 @@
             font-size: 16px;
         }
 }
+
+

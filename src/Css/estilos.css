@@ -11,8 +11,22 @@ header {
     display: flex;
     justify-content:flex-end
 }
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.dropdown {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
 .navegacao ul{
-    display: flex;
     gap: 45px;
     margin-top: 60px;
     margin-right: 100px;

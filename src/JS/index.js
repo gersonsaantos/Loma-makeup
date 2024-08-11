@@ -40,3 +40,24 @@ var swiper2 = new Swiper('.mySwiper2', {
     speed: 3000,
     
 });
+
+// Abre quando clicar no botão hanburgue
+
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+    var dropdownMenu = document.querySelector('.dropdown');
+    if (dropdownMenu.style.display === 'block') {
+        dropdownMenu.style.display = 'none';
+    } else {
+        dropdownMenu.style.display = 'block';
+    }
+
+});
+// Fechar o menu se clicar fora dele
+document.addEventListener('click', function(event) {
+    var menuToggle = document.querySelector('.menu-toggle');
+    var dropdownMenu = document.querySelector('.dropdown');
+
+    if (!menuToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
+        dropdownMenu.style.display = 'none';
+    }
+});
