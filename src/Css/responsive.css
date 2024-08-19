@@ -11,8 +11,6 @@
         display: flex;
         justify-content:flex-start;
         font-size: 14px;
-        position: fixed;
-        z-index: 2000;
         }
     
     .menu-toggle {
