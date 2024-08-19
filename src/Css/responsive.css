@@ -13,10 +13,11 @@
         font-size: 14px;
         }
     
-        .menu-toggle {
-            display: block;
+    .menu-toggle {
+        display: block;
     
-        }    
+    }
+    
     .navegacao ul{
         gap: 18px;
         position: relative;
@@ -219,7 +220,8 @@
         }
         .menu-toggle {
             display: block;
-    
+            position: absolute;
+            z-index: 2000;
         }
         .dropdown{
             position: absolute;
@@ -241,41 +243,52 @@
             width: 280px;
             font-size: 32px;
             text-align: center;
-            margin-left: 50px;
+            margin-left: 75px;
             margin-bottom: 50px;
         }
         .pagina1 .descricao{
             font-size: 16px;
-            width: 350px;
-            margin-left: 15px;
+            width: 400px;
+            margin-left: 35px;
         }
+        .pagina1 .descricao p{
+            margin-left: 20px;       
+            width: 100%;
+            max-width: 80%;
+            word-wrap: break-word;
+            box-sizing: border-box;
+            white-space: normal;
+        }
+        
         .pagina1 .fotopagina{
             height: 300px;
             position: relative;
-            bottom: -20px;
-            left: 70px;
+            bottom: -60px;
+            left: 85px;
         }
         .pagina1 .botao{
             font-size: 10px;
-            margin-left: 100px;
+            margin-left: 130px;
         }
         /*CSS DA SEGUNDA PAGINA*/
         .pagina2{
             margin-left: 0;
             width: 35%;
             height: 750px;
+            margin-top: 70px;
+
             
             
         }
         .pagina2 .titulo1{
             font-size: 25px;
-            margin-left: 115px;
+            margin-left: 140px;
         }
         .pagina2 .conteudo2{
             width: 60%;
             font-size: 16px;
             position: relative;
-            left: 40px;
+            left: 60px;
             top: 90px;
         }
         .pagina2 .lomafoto{
@@ -283,7 +296,7 @@
             position: relative;
             bottom: 0;
             top: 110px;
-            left: 110px;
+            left: 130px;
         }
         /*CSS DA TERCEIRA PAGINA*/
         .a1{
@@ -299,9 +312,10 @@
             
             
             
+            
         }
         .pagina3 .paleta{
-            margin-left: 35px;
+            margin-left: 50px;
             height: 10%;
             width: 320px;
             position: relative;
@@ -317,7 +331,7 @@
         }
         .pagina3 .swiper{
             position: relative;
-            left: 20px;
+            left: 50px;
             height: 600px;
             width:700px ;
         
@@ -344,6 +358,7 @@
         /*CSS DA QUARTA PAGINA*/
         .pagina4{
             height: 20%;
+            margin-left: 20px;
         }
         .pagina4 .swiper {
             background:#141111; 
@@ -362,6 +377,7 @@
             position: relative;
             right: 480px;
             top: 40px;
+            
     
         }
         footer{
