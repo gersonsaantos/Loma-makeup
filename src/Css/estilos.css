@@ -18,10 +18,12 @@ header {
     
 }
 .logo{
-    width: 280px;
-    position: absolute;
-    right: 680px;
-    bottom: -3px;
+    width: 260px;
+    position: fixed;
+    z-index: 3000;
+    margin-left: 550px;
+    margin-top: -140px;
+    
     
     
 }

@@ -1,18 +1,29 @@
 @media (max-width: 360px){
     body{
         max-width: 360px;
-        overflow-x:hidden;
+        overflow-x:scroll;
         touch-action: pan-y;
         
         
     }
     header{
-        
-        width: 361px;
+        width: 500px;
+        padding: 25px;
+        margin-top: -18px;
+        left: -15px;
         display: flex;
         justify-content:flex-start;
+        margin-left: 15px;
         font-size: 14px;
-        }
+    }
+    .logo{
+        width: 200px;
+        position: relative;
+        right: 465px;
+        top: 70px;
+        
+        
+    }
     
     .menu-toggle {
         display: block;
@@ -29,6 +40,7 @@
         margin-left: 0;
         height: 710px;
         width: 360px;
+        margin-top: 70px;
     }
     /*CSS DA PRIMERIA PAGINA*/
 
@@ -214,7 +226,7 @@
     }
     header{
         width: 500px;
-        padding: 0;
+        padding: 40px;
         margin-top: 0px;
         left: -15px;
         display: flex;
@@ -226,11 +238,12 @@
         .logo{
             width: 200px;
             position: relative;
-            left: 110px;
-            bottom: 0px;
+            right: 430px;
+            top: 130px;
+            
+            
         }
         .menu-toggle {
-            
             display: block;
             position: absolute;
             z-index: 2000;
@@ -252,6 +265,8 @@
             margin-left: 0;
             height: 710px;
             width: 30%;
+            margin-top: 140px;
+            
         }
 /*CSS DA PRIMERIA PAGINA*/
         .pagina1 .titulo{
