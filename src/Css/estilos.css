@@ -17,16 +17,7 @@ header {
     justify-content:flex-end
     
 }
-.logo{
-    width: 260px;
-    position: fixed;
-    z-index: 3000;
-    margin-left: 550px;
-    margin-top: -140px;
-    
-    
-    
-}
+
 .menu-toggle {
     display: none;
     background: none;
