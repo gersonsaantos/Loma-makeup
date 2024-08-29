@@ -53,7 +53,7 @@ header {
     
 }
 .navegacao li a:hover{
-    background: linear-gradient(to right, #e0bc9c, #c56511);
+    background: linear-gradient(to right, #DAA520, #DAA520);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -68,7 +68,7 @@ header {
     margin-top: 129px;
 }
 .pagina1 .titulo{
-    background: linear-gradient(to right, #e0bc9c, #c56511);
+    background: linear-gradient(to right,#DAA520, #DAA520, #DAA520);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -99,7 +99,7 @@ header {
 
 }
 .pagina1 .botao{
-    background: linear-gradient(to right, #b48052, #c56511);
+    background: linear-gradient(to right, #B8860B, #B8860B);
     text-decoration: none;
     padding: 20px;
     border-radius: 25% 10%;
@@ -227,7 +227,7 @@ header {
 }
 
 .swiper-slide .valor1{
-    background: linear-gradient(to right, #e0bc9c, #c56511);
+    background: linear-gradient(to right, #DAA520, #DAA520);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -246,7 +246,7 @@ header {
     text-align: justify;
 }
 .swiper-slide .bt-pagina01{
-    background: linear-gradient(to right, #d39762, #c56511);
+    background: linear-gradient(to right, #B8860B, #B8860B);
     padding: 10px;
     color:white;
     text-decoration: none;
@@ -257,7 +257,7 @@ header {
     
 }
 .swiper-slide .bt-pagina02{
-    background: linear-gradient(to right, #d39762, #c56511);
+    background: linear-gradient(to right, #B8860B, #B8860B);
     padding: 10px;
     color: white;
     text-decoration: none;
@@ -267,7 +267,7 @@ header {
     right: 40px;
 }
 .swiper-slide .bt-pagina03{
-    background: linear-gradient(to right, #d39762, #c56511);
+    background: linear-gradient(to right, #B8860B, #B8860B);
     padding: 10px;
     text-decoration: none;
     color: white;
@@ -323,7 +323,7 @@ header {
 /*CSS DA ULTIMA PAGINA*/
 
 footer{
-    background: linear-gradient(to right, #b48052, #c56511);
+    background: linear-gradient(to right, #B8860B, #B8860B);
     width: 100%;
     height:  70%;
 
