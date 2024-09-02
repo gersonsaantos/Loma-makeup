@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #f3edcb;
     overflow-x: hidden;
     width:  1440px;
     height:  706px;
@@ -8,7 +8,7 @@ body{
 /*CSS DA PRIMEIRA PAGINA DO SITE*/
 
 header {
-    background-color: black;
+    background-color: #f3edcb;
     padding: 40px;
     position: fixed;
     z-index: 2000;
@@ -82,7 +82,7 @@ header {
     
 }
 .pagina1 .descricao{
-    color: white;
+    color:#473f36;
     width: 50%;
     font-family: Montserrat, sans-serif;
     font-size: 20px;
@@ -125,7 +125,7 @@ header {
     margin-bottom: 50px;
 }
 .pagina2 .titulo1{
-    color: white;
+    color: #473f36;
     width: 160px;
     height: 34px;
     font-family: Montserrat, sans-serif;
@@ -135,7 +135,7 @@ header {
     top: 50px;
 }
 .pagina2 .conteudo2{
-    color: white;
+    color: #473f36;
     width: 670px;
     font-family: Montserrat, sans-serif;
     font-size: 20px;
