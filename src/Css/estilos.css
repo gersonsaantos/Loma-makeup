@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: white;
     overflow-x: hidden;
     width:  1440px;
     height:  706px;
@@ -8,7 +8,7 @@ body{
 /*CSS DA PRIMEIRA PAGINA DO SITE*/
 
 header {
-    background-color:  rgb(0, 0, 0);
+    background-color: white;
     padding: 40px;
     position: fixed;
     z-index: 2000;
@@ -22,7 +22,7 @@ header {
     display: none;
     background: none;
     border: none;
-    color: white;
+    color: black;
     font-size: 24px;
     cursor: pointer;
     
@@ -68,7 +68,9 @@ header {
     margin-top: 129px;
 }
 .pagina1 .titulo{
-    background: linear-gradient(to right,#DAA520, #DAA520, #DAA520);
+    background: linear-gradient(to right,
+    #b39372, 
+    #775e44, #3b2904);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -80,7 +82,7 @@ header {
     
 }
 .pagina1 .descricao{
-    color: white;
+    color: black;
     width: 50%;
     font-family: Montserrat, sans-serif;
     font-size: 20px;
@@ -99,7 +101,8 @@ header {
 
 }
 .pagina1 .botao{
-    background: linear-gradient(to right, #B8860B, #B8860B);
+    background: linear-gradient(to right, 
+    #b39372,  #775e44);
     text-decoration: none;
     padding: 20px;
     border-radius: 25% 10%;
@@ -112,7 +115,7 @@ header {
 /*CSS DA SEGUNDA PAGINA*/
 
 .pagina2{
-    background:#141111; 
+    background:rgb(179,147,114); 
     width: 1170px;
     height: 527px;
     margin-left: 135px;
