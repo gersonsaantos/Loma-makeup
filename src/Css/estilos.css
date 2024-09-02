@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: black;
     overflow-x: hidden;
     width:  1440px;
     height:  706px;
@@ -8,7 +8,7 @@ body{
 /*CSS DA PRIMEIRA PAGINA DO SITE*/
 
 header {
-    background-color: white;
+    background-color: black;
     padding: 40px;
     position: fixed;
     z-index: 2000;
@@ -69,8 +69,8 @@ header {
 }
 .pagina1 .titulo{
     background: linear-gradient(to right,
-    #b39372, 
-    #775e44, #3b2904);
+    #b98f66, 
+    #926e49, #473f36);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -82,7 +82,7 @@ header {
     
 }
 .pagina1 .descricao{
-    color: black;
+    color: white;
     width: 50%;
     font-family: Montserrat, sans-serif;
     font-size: 20px;
@@ -102,7 +102,7 @@ header {
 }
 .pagina1 .botao{
     background: linear-gradient(to right, 
-    #b39372,  #775e44);
+    #b39372,   #926e49);
     text-decoration: none;
     padding: 20px;
     border-radius: 25% 10%;
