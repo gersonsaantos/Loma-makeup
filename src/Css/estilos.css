@@ -53,7 +53,7 @@ header {
     
 }
 .navegacao li a:hover{
-    background: linear-gradient(to right,#b98f66,#926e49 #473f36);   
+    background:#b98f66;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
