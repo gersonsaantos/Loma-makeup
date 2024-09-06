@@ -53,7 +53,7 @@ header {
     
 }
 .navegacao li a:hover{
-    background: linear-gradient(to right, #DAA520, #DAA520);
+    background: linear-gradient(to right,#b98f66,#926e49 #473f36);   
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -117,7 +117,7 @@ header {
 .pagina2{
     background:rgb(179,147,114); 
     width: 1170px;
-    height: 527px;
+    height: 540px;
     margin-left: 135px;
     position: relative;
     bottom: 24px;
@@ -158,7 +158,7 @@ header {
     z-index: -1;
 }
 .pagina3{
-    background-color:black;
+    background-color: #f3edcb;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -167,7 +167,7 @@ header {
     text-align: justify;
 }
 .pagina3 .paleta{
-    color: white;
+    color:#473f36;
     width: 270px;
     height: 259px;
     margin-top: 80px;
@@ -186,8 +186,8 @@ header {
 }
 
 .pagina3 .swiper-wrapper{
-    background-color: #000000;
-    color: white;
+    background-color: #f3edcb;
+    color: black;
     width: 100% ;
     height:100%;
     margin-top: 40px;
@@ -196,7 +196,7 @@ header {
 }
 
 .pagina3 .swiper-slide {
-    background-color: #000000;
+    background-color:rgb(179,147,114);
     width: 20px;
     height: auto;
     display: flex;
@@ -216,7 +216,7 @@ header {
 .pagina3 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background:#141111; 
+    background:rgb(179,147,114); 
     display: flex;
     align-items: center;
     
@@ -230,14 +230,14 @@ header {
 }
 
 .swiper-slide .valor1{
-    background: linear-gradient(to right, #DAA520, #DAA520);
+    background: linear-gradient(to right, #615343, #554433);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     font-family: Montserrat, sans-serif;
     font-weight:700;
     font-size: 26px;
-    margin-bottom: 6px;
+    margin-bottom: 6px;   
     
 }
 .swiper-slide .lista1{
@@ -249,7 +249,7 @@ header {
     text-align: justify;
 }
 .swiper-slide .bt-pagina01{
-    background: linear-gradient(to right, #B8860B, #B8860B);
+    background: linear-gradient(to right,#a7896c,   #926e49);
     padding: 10px;
     color:white;
     text-decoration: none;
@@ -260,7 +260,7 @@ header {
     
 }
 .swiper-slide .bt-pagina02{
-    background: linear-gradient(to right, #B8860B, #B8860B);
+    background: linear-gradient(to right,#a7896c,   #926e49);   
     padding: 10px;
     color: white;
     text-decoration: none;
@@ -270,7 +270,7 @@ header {
     right: 40px;
 }
 .swiper-slide .bt-pagina03{
-    background: linear-gradient(to right, #B8860B, #B8860B);
+    background: linear-gradient(to right,#a7896c,   #926e49);    
     padding: 10px;
     text-decoration: none;
     color: white;
@@ -291,22 +291,21 @@ header {
 }
     
 .work1{
-    color: white;
+    color: #473f36;
     width: 20%;
     margin-top: 100px;
-    margin-left: 600px;
+    margin-left: 5px;
 }
 
 .pagina4 .swiper {
-    background:#141111; 
+    background:rgb(179,147,114);
     width: 80%;
     height: 65%;
     padding-top: 200px;
     margin-left: 100px;
     padding-bottom: 50px;
     margin-top: 50px;
-    box-shadow: 0px 0px 3px 0px rgba(136,136,136,1);
-
+    box-shadow: 0px 0px 3px 0px rgb(179,147,114)
 }
 
 .pagina4 .swiper-slide {
@@ -326,7 +325,9 @@ header {
 /*CSS DA ULTIMA PAGINA*/
 
 footer{
-    background: linear-gradient(to right, #B8860B, #B8860B);
+    background: linear-gradient(to right,
+    #b98f66, 
+    #926e49, #473f36);    
     width: 100%;
     height:  70%;
 
