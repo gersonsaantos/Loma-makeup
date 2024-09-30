@@ -27,7 +27,7 @@ var swiper = new Swiper(".mySwiper", {
 
 var swiper2 = new Swiper('.mySwiper2', {
     slidesPerView: 2,
-    spaceBetween: 20,
+    spaceBetween: 10,
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -53,11 +53,9 @@ document.querySelector('.menu-toggle').addEventListener('click', function() {
 
 });
 // Fechar o menu se clicar fora dele
-document.addEventListener('click', function(event) {
-    var menuToggle = document.querySelector('.menu-toggle');
-    var dropdownMenu = document.querySelector('.dropdown');
+const menuToggle = document.querySelector('.menu-toggle');
+const dropdownMenu = document.querySelector('.dropdown');
 
-    if (!menuToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
-        dropdownMenu.style.display = 'none';
-    }
+menuToggle.addEventListener('click', () => {
+    dropdownMenu.classList.toggle('active'); // Alterna a exibição do menu
 });
