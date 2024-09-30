@@ -320,7 +320,7 @@ header {
 }
 footer {
     background: linear-gradient(to right, #b98f66, #926e49, #473f36);
-    width: 100vw; 
+    width: 96vw; 
     height: auto;
     padding: 20px;
     margin-top: 9em;
@@ -355,6 +355,8 @@ footer {
     font-family: Montserrat, sans-serif;
     font-size: 28px;
     font-weight: 500;
+    position: relative;
+    right: 40px;
 }
 .dev1{
     width: 100vw;
@@ -363,6 +365,8 @@ footer {
     font-family: Montserrat, sans-serif;
     text-decoration: none;
     margin-top: 3em;
+    position: relative;
+    right: 40px;
 
 }
 
