@@ -97,16 +97,7 @@
     }
     .pagina5{
         position: relative;
-        width: 120vw;
-        right: 60px;
-    
-    }
-    .pagina5 .swiper-slide img{
-        width: 350px;
-        position: relative;
-        bottom: 1em;
-        right: 2em;
-        
+        right: 20px;
     }
     .penteados-combos{
         margin-top: 6em;
@@ -244,17 +235,9 @@
     }
     .pagina5{
         position: relative;
-        width: 120vw;
-        right: 60px;
+        right: 20px;
+    }
     
-    }
-    .pagina5 .swiper-slide img{
-        width: 350px;
-        position: relative;
-        bottom: 1em;
-        right: 2em;
-        
-    }
     .penteados-combos{
         margin-top: 5em;
         position: relative;
