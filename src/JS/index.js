@@ -52,10 +52,3 @@ document.querySelector('.menu-toggle').addEventListener('click', function() {
     }
 
 });
-// Fechar o menu se clicar fora dele
-const menuToggle = document.querySelector('.menu-toggle');
-const dropdownMenu = document.querySelector('.dropdown');
-
-menuToggle.addEventListener('click', () => {
-    dropdownMenu.classList.toggle('active'); // Alterna a exibição do menu
-});
